@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>        
+        <title>TODO supply a title</title>
+    </head>
+    
+    <link rel="stylesheet" type="text/css" href="css/mycss.css">
+
+       <!-- <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <body>
+        <script type="text/javascript" src="./js/d3.js"></script>
+        <script type="text/javascript" src="./js/myjs.js"></script>
+        <script type="text/javascript" src="./js/jquery-1.11.3.js"></script>
+
+        <!--<div>TODO write content</div>-->
+        <div id="option">
+            <input name="updateButton"
+               type="button"
+               value="Update"
+            /> 
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("h1").click(function(){
+                    $(this).addClass("blue").fadeOut("slow");}
+                );
+                    
+                $("#option").click(function(){
+                    updateData();   
+                });
+            });
+             
+        </script>
+<!--
+    <table border="1">
+        <tr>
+        <th>Header 1</th> <th>Header 2</th>
+        </tr> 
+        <tr>
+        <td>row 1, cell 1</td>
+        <td>row 1, cell 2</td> 
+        </tr>
+        <tr>
+        <td>row 2, cell 1</td> <td>row 2, cell 2</td>
+        </tr>
+    </table>
+-->
+</html>
